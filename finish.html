@@ -33,7 +33,8 @@
       </nav>
     
     <div class="myform">
-        <form>
+        <form onsubmit="addProject(event)" class="form">
+            <h1>Create New Project</h1>
             <div class="name mb-3">
                 <label for="">Project Name</label>
                 <input type="text" name="project name" id="name">
@@ -79,7 +80,7 @@
             </div>
             <div class="choose-file mb-3">
                 <label for="">Upload Image</label>
-                <input type="file" id="upload-img"></input>
+                <input type="file" id="upload-img">
             </div>
             <button type="submit" class="btn submition btn-primary">Submit</button>
           </form>

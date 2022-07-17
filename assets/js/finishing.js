@@ -1,17 +1,23 @@
 let cards=[]
+
 let addCard = (event) => {
   event.preventDefault()
-  let name = document.getElementById('name').value
-  let start = document.getElementById('start').value
-  let end = document.getElementById('end').value
-  let descriptions = document.getElementById('area').value
-  let image = document.getElementById('upload-img').files[0]
-    console.log(image)
-  let imagesProject = URL.createObjectURL(image)
+    let title = document.getElementById("name").value
+    let content = document.getElementById("area").value
+    let image = document.getElementById("upload-img")
 
-  let technology = document.getElementsByName('checked');
+    image = URL.createObjectURL(image.file[0])
 
-  let card= {name,descriptions,imagesProject}
+    checkedValue = []
+    let techno =document.getElementsByClassName('tec1a')
+    let data = techno.length
+    for (var i = 0; o < data; i++) {
+      if (techno[i].checked==true) {
+        checkedValue.push(techno[i].value)
+        
+      }
+    }
+
   cards.push(card);
   cardProjects();
 
