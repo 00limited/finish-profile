@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/mail.css">
+    <title>Creating Card</title>
+</head>
+<body>
+    <div class="myform">
+        <form>
+            <h1>GET IN TOUCH</h1>
+            <div class="container">
+                <div class="name">
+                    <label for="">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="mail">
+                    <label for="">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="phone">
+                    <label for="">Phone number</label>
+                    <input type="text" id="phone">
+                </div>
+                <div class="subject">
+                    <label for="">Subject</label>
+                    <select id="subject">
+                        <option value="Lets talk">Lets talk</option>
+                        <option value="meeting">meeting</option>
+                        <option value="playing game">playing game</option>
+                        <option value="sing song">sing song</option>
+                      </select>
+                </div>
+                <div class="message"> 
+                    <label for="">Your Message</label>
+                    <textarea name="" id="area" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit">
+                    <button value="Click me" id="emailButton" onclick="sendMail()">submit</button>
+                </div>
+            </div>
+        </form>
+    </div> 
+</body>
+<script src="assets/js/script.js"></script>
+</html>

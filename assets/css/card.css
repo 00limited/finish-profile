@@ -1,0 +1,97 @@
+.main-info{
+    width: 70%;
+    box-shadow: 1px 1px 6px 1px black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 50px 10px 50px;
+}
+.main-info .main-btn{
+    display: flex;
+    flex-direction: row;
+}
+.main-info .main-btn .main-text{
+    width: 50%;
+}
+.main-info .main-btn .main-text .main-dwl{
+    display: flex;
+    flex-direction: row;
+}
+#contdown {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.contact-btn {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 15px;
+    background: rgb(50, 50, 50);
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(50, 50, 50); 
+}
+.download {
+    width: 175px;
+    height: 30px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 0px rgb(50, 50, 50);
+}
+
+.download a h3 {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(50, 50, 50);
+}
+
+
+.main-info .main-btn .main-sosmed{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+}
+.main-info .main-btn .main-img{
+    width: 300px;
+    box-shadow: 1px 1px 8px 1px black;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    border-radius: 5px; 
+    
+}
+.second-container {
+    flex: 20%;
+    padding-right: 10px;
+    position: relative;
+}
+.self-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 400px;
+    border: 0px solid white;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(50, 50, 50);
+}
+
+.self-container img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+}

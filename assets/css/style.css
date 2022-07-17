@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    background-color: rgb(189, 193, 193);
+}
+.navbar .container-fluid{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar .container-fluid .navbar-brand img{
+    width: 60px;
+    height: 40px;
+    margin: 20px 2px;
+}
+
+
+.myform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(216, 211, 211);
+}
+.myform form{
+    width: 400px;
+}
+.myform h1{
+    text-align: center;
+}
+.myform .name{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+.myform form .star-end{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.myform form .star-end .start{
+    width: 50%;
+}
+.myform form .star-end .end{
+    width: 50%;
+    display: flex;
+    flex-direction: column;       
+} 
+
+.myform form .descriptions{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.myform form .descriptions #area{
+    resize: none;
+}
+
+.myform form .techno{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+}
+.myform form .techno .techno1{
+    display: flex;
+    flex-direction: row;
+}
+.myform form .techno .techno1 .tec1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+
+.myform form .choose-file{
+    display: flex;
+    flex-direction: column;
+}
+.myform form .choose-file .container{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    background: none; 
+}
+.myform form .choose-file input{
+    width: 100%;
+    outline: none;
+    cursor:pointer;
+    background-color:white;
+    border-radius: 2px;
+}
+
+
+
+
+.myform form .submition{
+    float: right;
+}
+
+.myform form .submition button{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .card-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: start;
+    
+        
+}
+.card .card-container{
+    background-color: rgb(188, 192, 192);
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px 1px black;
+    margin: 10px;
+}
+.card .card-container img{
+    width: 280px;
+    height: 200px;
+    padding-left: 10px;
+    border-radius: 40px;
+}
+.card .card-container .title h1{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.card .card-container .title h3{
+    margin-top: 1px;
+    font-size: 12px;
+}
+.card .card-container .desc p{
+    font-size: 12px;
+}
+.card .card-container .icon i{
+    width: 40px;
+}
+.card .card-container .container-butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+.card .card-container .container-butt button{
+    width: 120px;
+    font-weight: bold;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/78c9533d04.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/img/icon.png" alt="" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Add Project</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">Contact Me</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="myform">
+        <form>
+            <div class="name mb-3">
+                <label for="">Project Name</label>
+                <input type="text" name="project name" id="name">
+            </div>
+            <div class="star-end mb-3">
+                <div class="start">
+                    <label for="">Start Date</label>
+                    <input type="date" name="start date" id="start">
+                </div>
+                <div class="end">
+                    <label for="">End Date</label>
+                    <input type="date" name="end date" id="end">
+                </div>        
+            </div>
+            <div class="descriptions mb-3">
+                <label for="">Description</label>
+                <textarea name="" id="area" cols="30" rows="10"></textarea>
+            </div>
+            <div class="techno mb-3 form-check">
+                <label id="techno">Technologies</label>
+                <div class="techno1" id="checked">
+                    <div class="tec1">
+                        <div class="tec1a">
+                            <input type="checkbox">
+                            <label for="">Node JS</label>
+                        </div>
+                        <div class="tec1a">
+                            <input type="checkbox">
+                            <label for="">React JS</label>
+                        </div>
+                    </div>
+                    <div class="tec2">
+                        <div class="tec1a">
+                            <input type="checkbox">
+                            <label for="">Next JS</label>
+                        </div>
+                        <div class="tec1a">
+                            <input type="checkbox">
+                            <label for="">Typescript</label>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+            <div class="choose-file mb-3">
+                <label for="">Upload Image</label>
+                <input type="file" id="upload-img"></input>
+            </div>
+            <button type="submit" class="btn submition btn-primary">Submit</button>
+          </form>
+    </div>
+    
+    
+    
+</body>
+<script src="assets/js/finishing.js"></script>
+</html>
